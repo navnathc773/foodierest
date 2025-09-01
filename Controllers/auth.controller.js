@@ -1,6 +1,10 @@
 import { Router } from "express";
 import { FoodyItems } from "../Models/auth.model.js";
-import foodyData from "../Foodie.json";
+import { readFileSync } from "fs";
+
+const foodyData = JSON.parse(
+  readFileSync(new URL("../Foodie.json", import.meta.url))
+);
 
 // Router for inserting data
 const insertRouter = Router();
