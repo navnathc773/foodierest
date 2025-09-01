@@ -7,8 +7,8 @@ const insertRouter = Router();
 
 insertRouter.get("/", async (req, res) => {
   try {
-    const insertData = await FoodyItems.create(foodyData);
-    console.log("Data inserted into table");
+    const insertData = await FoodyItems.insertMany(foodyData); // safer than create for bulk
+    console.log("Data inserted into collection");
     res.status(201).json({ message: "Data inserted successfully", data: insertData });
   } catch (error) {
     console.error("Insert error:", error);
