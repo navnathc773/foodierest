@@ -4,17 +4,20 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const app=express();
-
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.use('/',authData);
+// Mount routes
+app.use("/", authData);
+app.use("/getAll", authFetch);
 
-app.use('/getAll',authFetch);
+// Health check route (helps Railway)
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" });
+});
 
-
-app.listen(PORT,()=>{
-    console.log(`Server is listening on PORT ${PORT}`);
-})
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server is listening on PORT ${PORT}`);
+});
