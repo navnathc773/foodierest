@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { FoodyItems } from "../Models/auth.model.js";
-import foodyData from "../Foodie.json" assert { type: "json" };
+import foodyData from "../Foodie.json";
 
 // Router for inserting data
 const insertRouter = Router();
