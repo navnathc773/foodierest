@@ -25,7 +25,7 @@ const fetchRouter = Router();
 
 fetchRouter.get("/", async (req, res) => {
   try {
-    const data = await FoodyItems.find();
+    const data = await FoodyItems.find(req.query);
     res.status(200).json({ msg: data });
   } catch (error) {
     console.error("Fetch error:", error);
