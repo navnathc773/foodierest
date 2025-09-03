@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { FoodyItems } from "../Models/auth.model.js";
+import { CategoryItems } from "../Models/auth.model.js";
 import { readFileSync } from "fs";
 
 const foodyData = JSON.parse(
@@ -11,7 +11,7 @@ const insertRouter = Router();
 
 insertRouter.get("/", async (req, res) => {
   try {
-    const insertData = await FoodyItems.insertMany(foodyData); // safer than create for bulk
+    const insertData = await CategoryItems.insertMany(foodyData); // safer than create for bulk
     console.log("Data inserted into collection");
     res.status(201).json({ message: "Data inserted successfully", data: insertData });
   } catch (error) {
@@ -25,7 +25,7 @@ const fetchRouter = Router();
 
 fetchRouter.get("/", async (req, res) => {
   try {
-    const data = await FoodyItems.find(req.query);
+    const data = await CategoryItems.find(req.query);
     res.status(200).json({ msg: data });
   } catch (error) {
     console.error("Fetch error:", error);

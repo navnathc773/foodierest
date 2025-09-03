@@ -10,19 +10,11 @@ const createSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  name: {
-    type: String,
-    required: true,
-  },
-  Description: {
-    type: String,
-    required: true,
-  },
-  price: {
+  Category: {
     type: String,
     required: true,
   },
 });
 
 // Export model (no direct connection here)
-export const FoodyItems = mongoose.model("foodyitems", createSchema);
+export const CategoryItems = mongoose.model("foodyitems", createSchema);
