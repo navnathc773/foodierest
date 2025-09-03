@@ -10,21 +10,9 @@ const createSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  name:{
+  Category:{
     type:String,
     required:true,
-  },
-  Description:{
-    type:String,
-    required:true,
-  },
-  Price:{
-    type:String,
-    required:true,
-  },
-  Category: {
-    type: String,
-    required: true,
   },
 });
 
