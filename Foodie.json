@@ -1,37 +1,90 @@
 [
     {
-        "id":1,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756870202/cupcake-removebg-preview_m06shf.png",
-        "Category":"cupcake"
+       "id":1,
+       "src":"https://i.ibb.co/V05YJf8k/poori.jpg",
+       "name":"Luchi Aaloo Dum",
+       "Description":"“Luchi Aaloo Dum is a beloved Bengali delicacy, featuring soft, golden, deep-fried luchis paired with a rich and aromatic potato curry. The luchis are made from refined flour and puff up beautifully when fried, while the spicy and flavorful aaloo dum is slow-cooked with tomatoes, onions, and fragrant spices. This classic combination is perfect for breakfast, festive meals, or special occasions, offering a comforting and authentic taste of Bengal.”",
+       "price":"100/- only",
+       "Category":"Spicy"
     },
     {
         "id":2,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756833625/yummy-cake-table-removebg-preview_sb89l1.png",
-        "Category":"Cake"
+        "src":"https://i.ibb.co/h1dCxZvM/stuff.jpg",
+        "name":"Dal Stuffed Poori",
+        "Description":"“Dal Stuffed Poori is a traditional Indian deep-fried bread delicacy, where fluffy pooris are filled with a flavorful spiced lentil mixture. The stuffing, made with seasoned lentils and aromatic spices, adds a delicious twist to the classic poori, making it hearty and satisfying. Perfect for festive occasions, breakfasts, or special meals, Dal Stuffed Poori is enjoyed with pickles, chutneys, or curries for a wholesome experience.”",
+        "price":"500/- only",
+        "Category":"Spicy"
     },
     {
-        "id":3,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756833944/side-view-oatmeal-cookies-bowl-rustic-removebg-preview_n87zqu.png",
-        "Category":"Cookies"
+       "id":3,
+       "src":"https://i.ibb.co/Xk29k6yS/bread.jpg",
+       "name":"Pita bread with Falafel and Hummus",
+       "Description":"“Pita Bread with Falafel and Hummus is a classic Middle Eastern delight that combines warm, fluffy pita bread with crispy golden falafel and creamy, flavorful hummus. The falafel, made from ground chickpeas blended with herbs and spices, provides a crunchy and aromatic bite, while the hummus adds smoothness and richness. Served together, this wholesome combination is not only delicious but also packed with protein and nutrients, making it a healthy and satisfying meal or snack.”",
+       "price":"300/- only",
+       "Category":"Snacks"
     },
     {
-        "id":4,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756867900/plate-chocolate-donut-blue-table-removebg-preview_nppcb8.png",
-        "Category":"donut"
+       "id":4,
+       "src":"https://i.ibb.co/WWmzm5DP/cake.jpg",
+       "name":"Dry Fruits Cake",
+       "Description":"“Dry Fruit Cake is a moist and flavorful dessert, loaded with the natural sweetness and crunch of assorted dry fruits and nuts. Baked to perfection, this cake blends the richness of butter and milk with the goodness of raisins, cashews, almonds, and walnuts, creating a wholesome treat. Perfect for festive celebrations, tea-time snacks, or gifting, Dry Fruit Cake is a timeless classic that delights with every bite.”",
+       "price":"200/- only",
+       "Category":"Cake"
     },
     {
         "id":5,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756868928/flat-lay-slice-pepperoni-pizza-plate-removebg-preview_d72b8b.png",
-        "Category":"Pizza"
+        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744553/WhatsApp_Image_2025-08-23_at_17.31.16_5362a218_yt4ec2.jpg",
+        "name":"Refined Flour Dry Fruit Cake",
+        "Description":"“Refined Flour Dry Fruit Cake is a soft, spongy, and rich cake made with premium refined flour and generously packed with crunchy nuts and chewy dry fruits. Baked to golden perfection, this cake combines the smooth texture of refined flour with the natural sweetness of raisins, cashews, almonds, and walnuts. Ideal for festive celebrations, tea-time indulgence, or gifting, this delightful cake offers a perfect balance of flavor, texture, and elegance.”",
+        "price":"300/- only",
+        "Category":"Cake"
     },
     {
         "id":6,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756869060/Screenshot_2025-09-03_083550-removebg-preview_otkdqn.png",
-        "Category":"Snacks"
+        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744661/WhatsApp_Image_2025-08-23_at_17.29.25_d4e05daf_hal4zj.jpg",
+        "name":"Sourdough Pizza",
+        "Description":"“Sourdough Pizza is a flavorful twist on the classic pizza, made with a naturally fermented sourdough base that’s airy, crisp, and slightly tangy. Topped with rich tomato sauce, melted cheese, and fresh toppings of your choice, the sourdough crust adds a unique depth of flavor and a perfect chewy texture. Loved for its artisanal taste and healthier fermentation process, Sourdough Pizza is a gourmet delight for pizza enthusiasts.”",
+        "price":"200/- only",
+        "Category":"Pizza"
     },
     {
         "id":7,
-        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756869147/flat-lay-indian-dessert-arrangement-removebg-preview_xccpup.png",
-        "Category":"Sweets"
+        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744475/WhatsApp_Image_2025-08-23_at_17.28.34_739fb315_miy6jc.jpg",
+        "name":"Nan Khatai",
+        "Description":"“Nankhatai is a traditional Indian shortbread cookie, known for its rich, buttery texture and delicate crumb. Made with refined flour, ghee, sugar, and flavored with cardamom, this melt-in-the-mouth delight is often garnished with chopped dry fruits or saffron. Popular during festivals and tea-time, Nankhatai perfectly balances sweetness with aromatic flavors, making it a timeless favorite across generations.”",
+        "price":"150/- only",
+        "Category":"Cookies"
+    },
+    {
+        "id":8,
+        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744838/WhatsApp_Image_2025-08-23_at_17.27.02_22c79fcb_bxht5l.jpg",
+        "name":"Cup Cakes with Pastry Cream Topping",
+        "Description":"“Cup Cakes with Pastry Cream Topping are soft, fluffy mini cakes adorned with a smooth and luscious layer of rich pastry cream. The light sponge base pairs perfectly with the creamy topping, creating a delightful balance of textures and flavors. Ideal for parties, celebrations, or tea-time treats, these cupcakes not only taste heavenly but also add elegance to any dessert table.”",
+        "price":"50/- only",
+        "Category":"cupcake"
+    },
+    {
+       "id":9,
+       "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744391/WhatsApp_Image_2025-08-23_at_17.27.55_bd457b41_try1q3.jpg",
+        "name":"Pizza",
+        "Description":"“Pizza is a world-famous Italian dish made with a freshly baked crust, topped with tangy tomato sauce, gooey melted cheese, and a variety of flavorful toppings like vegetables, herbs, and meats. Loved for its perfect balance of crunch, softness, and rich flavors, pizza is a universal favorite enjoyed at casual meals, parties, and celebrations alike.”",
+        "price":"250/- only",
+        "Category":"Pizza"
+    },
+    {
+        "id":10,
+        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744943/WhatsApp_Image_2025-08-23_at_17.30.31_1e0962b9_zhedat.jpg",
+        "name":"Almond Oats and Ragi cookies",
+        "Description":"“Almond Oats Cookies are crunchy, wholesome treats made with the goodness of oats and nutty almond flavor. Lightly sweetened and baked to perfection, these cookies are packed with fiber and nutrients, making them a healthy yet delicious choice for tea-time or snacking. Each bite offers a perfect blend of crispiness, nuttiness, and natural sweetness.”",
+        "price":"90/- only",
+        "Category":"Cookies"
+    },
+    {
+        "id":11,
+        "src":"https://res.cloudinary.com/de0gfcyix/image/upload/v1756744267/WhatsApp_Image_2025-08-23_at_17.32.11_7c8e87c9_re4tlk.jpg",
+        "name":"Chocolate Dry Fruit Cake",
+        "Description":"“Chocolate Dry Fruit Cake is a decadent dessert that combines the rich, velvety taste of chocolate with the natural sweetness and crunch of assorted dry fruits. Baked to perfection, this cake is soft, moist, and packed with flavors of cocoa, raisins, almonds, cashews, and walnuts. Perfect for festive celebrations, special occasions, or as a luxurious treat, Chocolate Dry Fruit Cake is a delightful blend of indulgence and nutrition.”",
+        "price":"650/- only",
+        "Category":"Cake"
     }
 ]
